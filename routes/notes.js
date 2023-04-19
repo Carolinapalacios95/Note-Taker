@@ -28,14 +28,19 @@ notes.post('/', (req, res) => {
   
       readAndAppend(newNote, './db/db.json');
       
-      res.json(newNote, `New note added successfully 🚀`);
+      const response = {
+        status: 'success',
+        body: newNote,
+      };
+
+      res.json(response);
     } else {
       res.error('Error in adding note');
     }
   });
 
   // DELETE Route for a specific note
-notes.delete('/:note_id', (req, res) => {
+notes.delete('/:id', (req, res) => {
     const noteId = req.params.note_id;
     readFromFile('./db/db.json')
       .then((data) => JSON.parse(data))
