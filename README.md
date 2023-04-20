@@ -33,6 +33,7 @@ This is a dynamic application that writes and saves notes based on user input. I
 
 The following images display the web application's appearance and functionality:
 
+![Note-Taker-Homepage-Demo](./public/assets/images/homepage-demo.PNG)
 ![Note-Taker-Demo-01](./public/assets/images/note-taker-demo-01.png)
 ![Note-Taker-Demo-02](./public/assets/images/note-taker-demo-02.png)
 
@@ -41,7 +42,7 @@ The following images display the web application's appearance and functionality:
 
 There is no installation required for this website. The webpage can be found by clicking the link below:
 
-[Note-Taker-Heroku]()
+[Note-Taker-Heroku](https://caros-note-taker.herokuapp.com/)
 
 
 ## Usage
